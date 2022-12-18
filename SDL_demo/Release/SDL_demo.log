@@ -1,0 +1,16 @@
+﻿  converter.cpp
+E:\AOKG\labexample\SDL_demo\stdafx.h(18): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  draw.cpp
+E:\AOKG\labexample\SDL_demo\stdafx.h(18): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  graphie.cpp
+E:\AOKG\labexample\SDL_demo\stdafx.h(18): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  Picture1.cpp
+E:\AOKG\labexample\SDL_demo\stdafx.h(18): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  SDL_demo.cpp
+E:\AOKG\labexample\SDL_demo\stdafx.h(18): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  stdafx.cpp
+E:\AOKG\labexample\SDL_demo\stdafx.h(18): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  UserInput.cpp
+E:\AOKG\labexample\SDL_demo\stdafx.h(18): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,
+  сoordinate_system.cpp
+E:\AOKG\labexample\SDL_demo\stdafx.h(18): fatal error C1083: Не удается открыть файл включение: SDL.h: No such file or directory,

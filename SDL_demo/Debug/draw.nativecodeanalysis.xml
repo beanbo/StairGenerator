@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+      <FILENAME>draw.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>polar_flower_x</FUNCTION>
+    <DECORATED>?polar_flower_x@@YANN@Z</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+      <FILENAME>draw.cpp</FILENAME>
+      <LINE>16</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>polar_flower_y</FUNCTION>
+    <DECORATED>?polar_flower_y@@YANN@Z</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+      <FILENAME>draw.cpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>big_dot</FUNCTION>
+    <DECORATED>?big_dot@@YAXPAUSDL_Surface@@HHHI@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+      <FILENAME>draw.cpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>big_dot</FUNCTION>
+    <DECORATED>?big_dot@@YAXPAUSDL_Surface@@HHHI@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+      <FILENAME>draw.cpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>big_dot</FUNCTION>
+    <DECORATED>?big_dot@@YAXPAUSDL_Surface@@HHHI@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+      <FILENAME>draw.cpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>big_dot</FUNCTION>
+    <DECORATED>?big_dot@@YAXPAUSDL_Surface@@HHHI@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+      <FILENAME>draw.cpp</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Использование неинициализированной памяти "p".</DESCRIPTION>
+    <FUNCTION>change_cs</FUNCTION>
+    <DECORATED>?change_cs@@YA?AUPosition@@NNPAPAN@Z</DECORATED>
+    <FUNCLINE>69</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+        <FILENAME>draw.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>объявление</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Инициализация "p" не выполнена</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+        <FILENAME>draw.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>ветвь</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "sk!=0" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\projects\labexample\sdl_demo</FILEPATH>
+        <FILENAME>draw.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>использование</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"p" используется, но, возможно, не инициализировано</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
